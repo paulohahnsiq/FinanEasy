@@ -1,0 +1,20 @@
+{
+    "0001": {
+        "numero": "0001",
+        "cliente": {
+            "nome": "Paulo victor Hahn Siqueira",
+            "cpf": "11111111111",
+            "email": "paulovhahn@gmail.com",
+            "telefone": "61982077934"
+        },
+        "saldo": 500.0,
+        "transacoes": [
+            {
+                "tipo": "deposito",
+                "valor": 500.0,
+                "descricao": "Depósito em conta",
+                "data": "27/06/2026 11:38:48"
+            }
+        ]
+    }
+}
