@@ -24,7 +24,7 @@ def ler_float(mensagem: str) -> float:
 
 def exibir_menu():
     print("=" * 42)
-    print("            🏦  BANCO PY")
+    print("            🏦  FinanEasy")
     print("=" * 42)
     print("1 - Criar conta")
     print("2 - Depositar")
@@ -149,7 +149,7 @@ def main():
         opcao = input("Escolha uma opção: ").strip()
 
         if opcao == "0":
-            print("\n👋 Saindo do Banco Py... Até logo!")
+            print("\n👋 Saindo do FinanEasy... Até logo!")
             sys.exit(0)
 
         acao = acoes.get(opcao)
