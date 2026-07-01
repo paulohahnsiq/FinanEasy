@@ -15,7 +15,7 @@ def gerar_extrato_pdf(conta: Conta, caminho: str = None) -> str:
     pdf.add_page()
 
     pdf.set_font("Helvetica", "B", 16)
-    pdf.cell(0, 10, "Banco Py - Extrato Bancário", ln=1, align="C")
+    pdf.cell(0, 10, "FinanEasy - Extrato Bancário", ln=1, align="C")
     pdf.ln(4)
 
     pdf.set_font("Helvetica", "", 11)
@@ -51,7 +51,7 @@ def gerar_extrato_excel(conta: Conta, caminho: str = None) -> str:
     ws = wb.active
     ws.title = "Extrato"
 
-    ws["A1"] = "Banco Py - Extrato Bancário"
+    ws["A1"] = "FinanEasy - Extrato Bancário"
     ws["A1"].font = Font(bold=True, size=14)
     ws.merge_cells("A1:D1")
     ws["A1"].alignment = Alignment(horizontal="center")
