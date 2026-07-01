@@ -54,7 +54,7 @@ finaneasy/
 │   ├── cliente.py          # Classe Cliente
 │   └── transacao.py        # Classe Transacao
 ├── services/
-│   ├── finaneasy.py             # Regras de negócio (depósito, saque, transferência)
+│   ├── banco.py             # Regras de negócio (depósito, saque, transferência)
 │   └── relatorio.py          # Geração de extrato em PDF/Excel
 ├── data/
 │   └── contas.json          # Persistência dos dados
