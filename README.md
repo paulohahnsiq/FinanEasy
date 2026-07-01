@@ -1,4 +1,4 @@
-<h1 align="center">🏦 Banco Py</h1>
+<h1 align="center">🏦 FinanEasy</h1>
 
 <p align="center">
   Sistema bancário em linha de comando (CLI) desenvolvido em Python, utilizando Programação Orientada a Objetos.
@@ -16,7 +16,7 @@
 
 ## 📋 Sobre o projeto
 
-O **Banco Py** é um sistema bancário simulado, desenvolvido inteiramente em Python, que permite gerenciar contas, realizar operações financeiras e gerar relatórios de extrato em PDF e Excel. O projeto foi criado como prática de **Programação Orientada a Objetos (POO)**, manipulação de arquivos e geração de relatórios.
+O **FinanEasy** é um sistema bancário simulado, desenvolvido inteiramente em Python, que permite gerenciar contas, realizar operações financeiras e gerar relatórios de extrato em PDF e Excel. O projeto foi criado como prática de **Programação Orientada a Objetos (POO)**, manipulação de arquivos e geração de relatórios.
 
 ---
 
@@ -47,14 +47,14 @@ O **Banco Py** é um sistema bancário simulado, desenvolvido inteiramente em Py
 ## 📂 Estrutura do projeto
 
 ```
-banco-py/
+finaneasy/
 ├── main.py                # Ponto de entrada do sistema (menu CLI)
 ├── models/
 │   ├── conta.py            # Classe Conta
 │   ├── cliente.py          # Classe Cliente
 │   └── transacao.py        # Classe Transacao
 ├── services/
-│   ├── banco.py             # Regras de negócio (depósito, saque, transferência)
+│   ├── finaneasy.py             # Regras de negócio (depósito, saque, transferência)
 │   └── relatorio.py          # Geração de extrato em PDF/Excel
 ├── data/
 │   └── contas.json          # Persistência dos dados
@@ -75,10 +75,10 @@ banco-py/
 
 ```bash
 # 1. Clone o repositório
-git clone https://github.com/paulohahnsiq/banco-py.git
+git clone https://github.com/paulohahnsiq/finaneasy.git
 
 # 2. Acesse a pasta do projeto
-cd banco-py
+cd finaneasy
 
 # 3. Crie um ambiente virtual (recomendado)
 python -m venv venv
@@ -97,7 +97,7 @@ python main.py
 ## 💻 Exemplo de uso
 
 ```
-=== BANCO PY ===
+=== FinanEasy ===
 1 - Criar conta
 2 - Depositar
 3 - Sacar
@@ -133,4 +133,4 @@ Estudante de Ciência da Computação | Desenvolvedor Python em formação
 ---
 
 <p align="center"><i>Projeto desenvolvido para fins de aprendizado e portfólio. 🚀</i></p>
-# banco-py
+# FinanEasy
